@@ -4,18 +4,21 @@ body{
     flex-wrap: wrap; */
     background-color: rgba(108, 115, 117, 0.356);
 }
+/* font-faily for all this tags */
 h1, h2, p, a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .header{
-    /* display: flex;
-    flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
 }
+/* all this is for the Imanuel   */
 #name{
     /* color: rgba(38, 76, 179, 0.897); */
     font-size: 75px;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: wrap;
+    /* justify-content: flex-end; */
     margin-top: 15px;
     margin-right: 55px;
     margin-left: 1550px;
@@ -42,7 +45,6 @@ h1, h2, p, a{
 }
 
 #AB, #MW, #CM{
-    
     padding: 8px;
     background-color: rgb(221, 221, 221);
     font-size: 35px;
@@ -52,10 +54,11 @@ h1, h2, p, a{
 
 .me{
     width: 125px;
-    display: block;
-    margin: auto;
-    margin-top: -100px;
-    border-radius: 650px 650px 250px 250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 250px auto;
+    margin-top: -85px;
+    /* border-radius: 650px 650px 250px 250px; */
 }
 
 .about-me { 
@@ -68,6 +71,8 @@ h1, h2, p, a{
 }
 
  p {
+    display: flex;
+    flex-wrap: wrap;
     margin: 25px -10px;
     background-color: rgba(245, 252, 252, 0.925);
     border-radius: 10px;
@@ -98,6 +103,7 @@ h1, h2, p, a{
 
 .container{
     /* max-width: 1200px; */
+    display: flex;
     width: 100%;
     height: 800px;
     display: grid;
@@ -132,6 +138,7 @@ h1, h2, p, a{
     font-size: 45px;
     justify-content: space-around;
     display: flex;
+    flex-wrap: wrap;
     border: 3px solid rgb(0, 0, 0);
     border-radius: 10px;
 }
@@ -147,8 +154,97 @@ h1, h2, p, a{
     color: rgb(0, 0, 0);
 }
 
-/* @media screen and  (min-width: 500px){
+ @media screen and  (max-width: 1700px){ */
     body{
-        background-color: brown;
+        /* background-color: brown; */
+        display: flex;
+        flex-wrap: wrap;
     }
-} */
+   
+    .me{
+        width: 125px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: -100px;
+        margin-left: 100px;
+        border-radius: 650px 650px 250px 250px;
+    }
+  
+    p {
+        text-align: center;
+        background-color: black;
+        margin-block-start: 1em;
+        margin-block-end: -1em;
+        margin-inline-start: -150px;
+        margin-inline-end: -100px;
+        padding: 1px 200px;
+    }
+    #name{
+        width: 125px;
+        display: flex;
+        flex-wrap: wrap;
+     
+    }
+    .contact-me{
+        margin-bottom: 10px;
+        font-size: 45px;
+        justify-content: space-evenly;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .me{
+        width: 125px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px 200px auto;
+        margin-top: -85px;
+        border-radius: 650px 650px 250px 250px;
+    }
+} 
+
+@media screen and  (max-width: 700px){
+    body{
+        /* background-color: rgb(0, 0, 0); */
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+  #about-me
+  
+    p {
+        text-align: center;
+        
+        margin-block-start: 1em;
+        margin-block-end: -1em;
+        margin-inline-start: -295px;
+        margin-inline-end: 150px;
+        
+    }
+    #name{
+        width: 125px;
+        display: flex;
+        flex-wrap: wrap;
+     
+    }
+    .contact-me{
+        margin-bottom: 10px;
+        font-size: 45px;
+        justify-content: space-evenly;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .me{
+        width: 125px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px 200px auto;
+        margin-top: -85px;
+        
+    }
+}  
+
+
+
